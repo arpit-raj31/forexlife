@@ -1,7 +1,7 @@
 import Admin from '../models/Admin.model.js';
 import User from '../models/User.js';
 import jwt from 'jsonwebtoken';
-import bcrypt from 'bcrypt';
+import bcrypt from 'bcryptjs';
 import dotenv from 'dotenv';
 import LiveAccount from '../models/User.LiveAccount.model.js';
 

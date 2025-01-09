@@ -1,4 +1,5 @@
-import bcrypt from 'bcrypt';
+import bcrypt from 'bcryptjs';
+
 import User from '../models/User.js';
 // import LiveAccount from '../models/User.LiveAccount.model.js';
 import { generateOTP } from '../utils/otpGenerator.js';
